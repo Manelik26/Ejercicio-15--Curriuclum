@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+body{
+    height:1200px;
+}
+#hero{
+    background-image: url("/resources/img/hero.jpg");
+    width: 100%;
+    height: 270px;
+    background-color:red;
+    position: absolute;
+    border-bottom: 2px solid rgb(154, 15, 235);
+    
+    
+}
+#menu{
+    display: flex;
+    background-color:rgba(0, 0, 0, 0.7);
+    height:50px;
+    align-items: center;
+    width:100%;
+    position: fixed;
+    top: 0px;
+    list-style: none;
+   
+}
+#menu li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'arial';
+    margin-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid whitesmoke;
+    height: 100%;
+    
+    
+    
+
+}
+#menu li{
+    height: 100%;
+    align-content: center;
+    padding-top:30px;
+   
+    
+}
+
+#menu li:hover{
+    background-color:rgba(45, 45, 49, 0.788);
+    border-radius: 20%;
+    text-decoration: underline;
+    box-shadow: 5px 5px 10px black;
+    font-weight: bold;
+    border: 1px solid rgba(13, 9, 247,0.7);
+   
+
+}
+h1{
+    
+    font-family:'arial';
+    font-size:80px;
+    text-align: center;
+    color: antiquewhite;
+    height: 79%;
+    margin-top: 90px;
+    text-shadow: 10px 10px 20px grey;
+}
+#aside{
+    background-color:BLACK;
+    z-index: 10;
+    position: absolute;
+    top: 270px;
+    width: 50px; 
+    position:fixed;
+    left: 96%;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 160px;
+    border: 2px solid rgb(154, 15, 235);
+}
+#menuSocial{
+    list-style-type:none;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#menuSocial li a img{
+    width:40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}
+#menuSocial li:hover{
+    background-color:white;
+    border-radius: 5px;
+    
+}
+
+
